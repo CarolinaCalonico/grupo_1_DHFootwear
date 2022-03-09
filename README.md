@@ -9,7 +9,7 @@ Proyecto realizado por:
 
 ## Temática del Sitio: 
 Para este proyecyo elegimos la temática "Calzados" donde 
-estaremos trabajando con diferentes categorías y estilos.
+estaremos trabajando con diferentes categorías, marcas y estilos.
 
 ## Referencias: 
 Hicimos una elección de diferentes sitios para tener como 
