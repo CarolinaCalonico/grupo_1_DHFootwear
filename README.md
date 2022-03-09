@@ -17,11 +17,11 @@ referencia, tanto en temática, como en diseño visual,
 arquitectura, desarrollo, etc.
 
 ### Sitios sobre la tematica elegida
-https://www.cero26.com.ar/
-https://amaika.com.ar/
-https://www.grid.com.ar/
-https://www.stockcenter.com.ar/home
+* https://www.cero26.com.ar/
+* https://amaika.com.ar/
+* https://www.grid.com.ar/
+* https://www.stockcenter.com.ar/home
 
 ### Sitios sobre diseños vistosos
-https://www.fusionbikes.com.ar/
-https://www.dafiti.com.ar/
+* https://www.fusionbikes.com.ar/
+* https://www.dafiti.com.ar/
