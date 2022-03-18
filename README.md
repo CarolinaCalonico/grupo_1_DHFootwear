@@ -26,5 +26,7 @@ Hicimos una elección de diferentes sitios para tener como referencia, tanto en 
 
 ---------------------------------------------------------------------------
 
-## Proyecto Figma: Wireframe / Diseño
+## Proyecto Figma: 
+Pagina 1: Wireframe
+Pagina 2: Diseño
 https://www.figma.com/file/S4vc5ua1OrEjeVTgc3h3Oi/Sprint-1---Wireframe-y-Dise%C3%B1o?node-id=0%3A1
