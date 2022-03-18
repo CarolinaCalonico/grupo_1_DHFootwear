@@ -4,8 +4,6 @@ Proyecto realizado por:
 - Carolina Calónico
 - Christian Diaz Luna
 - Marcos Ramos
-- Nicolas Melia.
-
 
 ## Temática del Sitio: 
 Para este proyecyo elegimos la temática "Calzados" donde 
