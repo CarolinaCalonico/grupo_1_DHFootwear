@@ -1,4 +1,4 @@
-# ProyectoDH
+# GRUPO 1: DH Footwear
 
 Proyecto realizado por:
 - Carolina Calónico
