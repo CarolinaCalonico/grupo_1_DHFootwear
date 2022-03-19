@@ -30,3 +30,6 @@ Hicimos una elección de diferentes sitios para tener como referencia, tanto en 
 - Pagina 1: Wireframe
 - Pagina 2: Diseño
 - https://www.figma.com/file/S4vc5ua1OrEjeVTgc3h3Oi/Sprint-1---Wireframe-y-Dise%C3%B1o?node-id=0%3A1
+
+##Tablero Trello:
+-https://trello.com/b/k2f48JUm/digital-house-grupo-1
