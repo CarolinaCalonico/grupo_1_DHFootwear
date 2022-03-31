@@ -223,3 +223,24 @@ header .container .user-actions .feather {
         display: none;
     }
 }
+
+
+/* Register */
+main .form{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+}
+
+main .buttonRegister{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+button{
+    padding: 5px;
+    margin: 15px;
+}
