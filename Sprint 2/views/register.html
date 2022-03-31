@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/home" class="logo">
+                <img src="/images/logotipo-dh-footwear.png" alt="Logotipo DG-Footwear"/>
+            </a>
+            <input type="text" name="search-box" id="search-box" placeholder="Buscar" />
+            <div class="user-actions">
+                ¿Ya tenés una cuenta? <a href="/login"> Ingresar <i class="far fa-user-circle"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- action = ruta en donde se va a procesar la info  -->
+        <form action="" method="post" class="form">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombreUsuario" id="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellidoUsuario" id="apellido">
+            </div>
+            <div>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario">
+            </div>
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="passwordUsuario" id="contraseña">
+            </div>
+            <div>
+                <label for="confirContraseña">Confirmar contraseña</label>
+                <input type="password" name="passwordUsuario" id="confirContraseña">
+            </div>
+            <div>
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="emailUsuario" id="correo">
+            </div>
+            <div>
+                <label for="confirCorreo">Correo electrónico</label>
+                <input type="email" name="emailUsuario" id="confirCorreo">
+            </div>
+            <div class="buttonRegister"> 
+                <div>
+                    <button type="submit">Registrar</button>
+                </div>
+                <div>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+
+
