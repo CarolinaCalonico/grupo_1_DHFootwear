@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;900&display=swap');
+
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #494d51;
+}
+
+a {
+    color: #494d51;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ec2a00;
+}
+
+input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(73 77 81 / 25%);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Contenedores */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background-color: #eaeaea;
+    padding: 1.5rem 0;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.21);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo img {
+    width: 256px;
+}
+
+header .container #search-box {
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    min-width: 25rem;
+}
+
+header .container .user-actions {
+    font-weight: 400;
 }
