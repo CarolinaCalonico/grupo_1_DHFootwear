@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>DH Footwear | Bienvenidos</title>
-        
+
+        <link rel="icon" href="/images/favicon.ico" type="image/png">
         <link rel="stylesheet" href="css/style.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body>
         
@@ -17,13 +18,32 @@
                 <a href="/home" class="logo">
                     <img src="/images/logotipo-dh-footwear.png" alt="Logotipo DG-Footwear"/>
                 </a>
-                <input type="text" name="search-box" id="search-box" placeholder="Buscar" />
+                <div class="search-box">
+                    <i data-feather="search"></i>
+                    <input type="text" name="search-box" id="search-box" placeholder="Buscar" />
+                </div>                                
                 <div class="user-actions">
-                    <a href="/register"> Registrarme</a> |
-                    ¿Ya tenés una cuenta? <a href="/login"> Ingresar <i class="far fa-user-circle"></i></a>
+                    <a href="/register"><i data-feather="user-plus"></i> Registrarme</a> |
+                    <span>¿Ya tenés una cuenta?</span> <a href="/login"><i data-feather="log-in"></i> Ingresar</a>
                 </div>
             </div>
         </header>
+
+        <section id="main-banner">
+            <div class="container">
+                <article>
+                    <h3>Titulo del producto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo enim et sapien viverra faucibus. Fusce consequat pretium leo, ac ultrices orci feugiat eget. Suspendisse sed risus posuere, convallis orci ut, tincidunt diam.</p>
+                    <div class="container-btn">
+                        <a class="btn" href="/product-detail">Ver producto</a>
+                        <a class="btn" href="/product-cart"><i data-feather="shopping-cart"></i>Agregar al carrito</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Iniciador de iconos -->
+        <script>feather.replace()</script>
 
     </body>
 </html>
