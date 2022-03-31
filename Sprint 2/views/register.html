@@ -30,41 +30,38 @@
 
     <main>
         <!-- action = ruta en donde se va a procesar la info  -->
-        <form action="" method="post" class="form">
+        <form action="" method="post">
             <div>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombreUsuario" id="nombre">
-            </div>
-            <div>
+            
                 <label for="apellido">Apellido:</label>
                 <input type="text" name="apellidoUsuario" id="apellido">
-            </div>
-            <div>
+            
+                <label for="fecha">Fecha nacimiento</label>
+                <input placeholder="DD/MM/AA" name="fechanacimiento" type="text" id="fecha">
+            
                 <label for="usuario">Usuario:</label>
                 <input type="text" name="usuario" id="usuario">
-            </div>
-            <div>
+            
                 <label for="contraseña">Contraseña</label>
-                <input type="password" name="passwordUsuario" id="contraseña">
-            </div>
-            <div>
+                <input type="password" name="passwordUsuario" id="contraseña" minlength="8" maxlength="8">
+            
                 <label for="confirContraseña">Confirmar contraseña</label>
-                <input type="password" name="passwordUsuario" id="confirContraseña">
-            </div>
-            <div>
+                <input type="password" name="passwordUsuario" id="confirContraseña" minlength="8" maxlength="8">
+            
                 <label for="correo">Correo electrónico</label>
                 <input type="email" name="emailUsuario" id="correo">
-            </div>
-            <div>
+            
                 <label for="confirCorreo">Correo electrónico</label>
                 <input type="email" name="emailUsuario" id="confirCorreo">
             </div>
-            <div class="buttonRegister"> 
+            <div> 
                 <div>
-                    <button type="submit">Registrar</button>
+                    <button class="button" type="submit">Registrar</button>
                 </div>
                 <div>
-                    <button type="reset">Cancelar</button>
+                    <button class="button" type="reset">Cancelar</button>
                 </div>
             </div>
         </form>
