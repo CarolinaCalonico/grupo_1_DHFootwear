@@ -244,3 +244,28 @@ button{
     padding: 5px;
     margin: 15px;
 }
+
+/* login.html */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+}
+
+.contenedorlogin {
+    padding: 10px 10px;
+    margin: 200px;
+}
+
+.buttonRegister {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+button{
+    padding: 5px;
+    margin: 15px;
+}
