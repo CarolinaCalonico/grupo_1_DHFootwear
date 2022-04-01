@@ -226,21 +226,22 @@ header .container .user-actions .feather {
 
 
 /* Register */
-main .form{
-    display: flex;
-    flex-direction: column;
-    padding: 80px;
-    align-items: center;
+form {
+    background-color: white;
+    margin: 10px;
+    margin: 0 auto;
+    border-radius: 19px;
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-main .buttonRegister{
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-
-}
-
-button{
+label {
+    margin-left: 8px;
+    font-size: 12px;
     padding: 5px;
     margin: 15px;
 }
