@@ -243,30 +243,41 @@ label {
     margin-left: 8px;
     font-size: 12px;
     padding: 5px;
-    margin: 15px;
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
 }
 
-/* login.html */
-
-.login {
-    display: flex;
-    flex-direction: column;
-    padding: 80px;
-    align-items: center;
+input {
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 2%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-style: italic;
 }
 
-.contenedorlogin {
-    padding: 10px 10px;
-    margin: 200px;
+input:focus {
+    background-color: #f2f2f2;
 }
 
-.buttonRegister {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
+.button {
+    width: 94%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #205ab4;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 3%;
+    border-radius: 20px 10px 20px 10px;
+    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+}
+.button:hover {
+    background-color: #7facde;
 }
 
-button{
-    padding: 5px;
-    margin: 15px;
-}
