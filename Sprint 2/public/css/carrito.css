@@ -7,7 +7,6 @@
     padding: 0;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: #494d51;
-    box-sizing: border-box;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -225,218 +224,34 @@ header .container .user-actions .feather {
     }
 }
 
+/* CARRITO */
 
-/* Register */
-form {
-    background-color: white;
-    margin: 10px;
-    margin: 0 auto;
-    border-radius: 19px;
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-label {
-    margin-left: 8px;
-    font-size: 12px;
-    padding: 5px;
-    display: block;
-    width: 100%;
-    font-family: sans-serif;
-}
-
-input {
-    margin-bottom: 10px;
-    width: 95%;
-    padding: 2%;
-    margin-left: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    font-style: italic;
-}
-
-input:focus {
-    background-color: #f2f2f2;
-}
-
-.button {
-    width: 94%;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    background-color: #205ab4;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    border: none;
-    padding: 3%;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
-}
-.button:hover {
-    background-color: #7facde;
-}
-
-
-
-/* Login */
-form .title{
-    padding: 15px;
+.productocarrito {
+    border: 1px solid black;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
-.button-login{
-    width: 50%;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    background-color: #205ab4;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    padding: 3%;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
-    margin-left: 150px;
-    margin-top: 20px;
+.carro {
+    text-align: right;
+    margin: 20px;
 }
 
-.button-login:hover {
-    background-color: #7facde;
+.imgcarro {
+    width: 150px;
+    height: 150px;
 }
 
-.olvidaste{
-<<<<<<< HEAD
-    margin-left: 100px;
-}
-
-
-
-
-
-
-/* Product Detail */
-.flex-box{
+.productocomprar {
     display: flex;
-    width: 1000px;
-    margin: 80px auto;
-}
-.left{
-    width: 40%;
-}
-.big-img{
-    width: 350px;
-}
-.big-img img{
-    width: inherit;
-}
-.images{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-top: 15px;
-}
-.small-img{
-    width: 50px;
-    overflow: hidden;
-    border: 1.5px solid transparent;
-}
-.small-img img{
-    width: inherit;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.small-img:hover img{
-    transform: scale(1.5);
-}
-.url{
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(6, 46, 105);
-}
-.pname{
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 50px;
-}
-.ratings i{
-    color: rgb(255, 136, 0);
-}
-.price{
-    font-size: 20px;
-    font-weight: 500;
-    margin: 20px 0;
-}
-.size{
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-}
-.size p{
-    font-size: 18px;
-    font-weight: 500;
-}
-.psize{
-    width: 60px;
-    height: 30px;
-    border: 1px solid #ff5e00;
-    color: #000;
-    text-align: center;
-    margin: 0 10px;
-    cursor: pointer;
-}
-.psize.active{
-    border-width: 1.5px;
-    color: #ff5e00;
-    font-weight: 500;
-}
-.quantity{
-    display: flex;
-}
-.quantity p{
-    font-size: 18px;
-    font-weight: 500;
-}
-.quantity input{
-    width: 60px;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    margin-left: 15px;
-}
-.btn-box{
-    display: flex;
-    margin-top: 40px;
-}
-.btn-box button{
-    font-size: 18px;
-    padding: 8px 25px;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    color: white;
-}
-.cart-btn{
-    background-color: #ff5e00;
-    margin-right: 20px;
-}
-.buy-btn{
-    background-color: #00aeff;
-}
-.cart-btn:hover{
-    background-color: #ff3c00;
-}
-.buy-btn:hover{
-    background-color: #0066ff;
-=======
-    margin-left: 200px;
->>>>>>> 04e8452bc464db11cb4a00f36776d478c67a9d15
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
 }
