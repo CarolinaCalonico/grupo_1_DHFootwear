@@ -9,6 +9,10 @@
 
         <link rel="icon" href="/images/favicon.ico" type="image/png">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/owl.carousel.min.js"></script>
         <script src="https://unpkg.com/feather-icons"></script>
     </head>
 
@@ -17,17 +21,37 @@
     <header>
         <div class="container">
             <a href="/home" class="logo">
-                <img src="/images/logotipo-dh-footwear.png" alt="Logotipo DG-Footwear"/>
+                <img src="/images/logotipo-dh-footwear.png" alt="Logotipo DG-Footwear" class="lg"/>
+                <img src="/images/isotipo-dh-footwear.png" alt="Logotipo DG-Footwear" class="sm"/>
             </a>
-            <div class="search-box">
+            <form class="search-box">
                 <i data-feather="search"></i>
                 <input type="text" name="search-box" id="search-box" placeholder="Buscar" />
-            </div>                                
+            </form>                                
             <div class="user-actions">
-                <a href="/register"><i data-feather="user-plus"></i> Registrarme</a> |
-                <span>¿Ya tenés una cuenta?</span> <a href="/login"><i data-feather="log-in"></i> Ingresar</a> | <a href="/product-cart">Carrito de compras</a>
+                <a href="/register">Registro</a>|
+                <span>¿Ya tenés una cuenta?</span> <a href="/login">Ingresar</a>|
+                <a href="/product-cart"><i data-feather="shopping-cart"></i></a>
             </div>
+            <nav>
+                <a href="/market">tienda</a>
+                <a href="/2022">nuevo 2022</a>
+                <a href="/season">temporada</a>
+                <a href="/categories">categorias</a>
+            </nav>
+            <a href="#" class="menu-toogle" onclick="toogleMenuMobile();"><i data-feather="menu"></i></a>
         </div>
+        <nav id="menu-mobile">
+            <a href="#" class="menu-toogle" onclick="toogleMenuMobile();"><i data-feather="x"></i></a>
+            <a href="/market">tienda</a>
+            <a href="/2022">nuevo 2022</a>
+            <a href="/season">temporada</a>
+            <a href="/categories">categorias</a>
+            <a href="/product-cart">mi carrito</a>
+            <hr>
+            <a href="/register">registro</a>
+            <a href="/login">ingresar</a>
+        </nav>
     </header>
 
     <div class="contenedor">
@@ -55,6 +79,8 @@
         </div>
 
     </div>
+
+    <script src="scripts/functions.js"></script>
 
 </body>
 </html>
