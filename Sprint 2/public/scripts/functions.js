@@ -7,8 +7,11 @@ function toogleMenuMobile() {
 
 $(document).ready(function(){
     $('#carousel-home').owlCarousel({
-        loop:true,
-        margin:10,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
         responsive:{
             0:{
                 items:1,

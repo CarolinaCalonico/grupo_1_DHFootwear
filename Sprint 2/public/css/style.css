@@ -88,6 +88,7 @@ input:focus {
     align-items: center;
     padding: 0.5rem 1rem 0.75rem 1rem;
     background-color: #494d51;
+    color: white;
     line-height: normal;
     font-weight: 500;
     border-radius: 5px;
@@ -95,9 +96,23 @@ input:focus {
     transition: background-color, color, 120ms;
 }
 
+.btn.btn-sm {
+    padding: 0.35rem 1rem 0.5rem 1rem;
+}
+
+.btn.btn-red {
+    background-color: #ec2a00;
+}
+
 .btn:hover {
     background-color: #555a5f;
+    color: white;
 }
+
+.btn.btn-red:hover {
+    background-color: #f74016;
+}
+
 
 .btn .feather {
     width: 16px;
@@ -268,11 +283,49 @@ header #menu-mobile .menu-toogle  {
     padding: 0;
 }
 
-/* Banner Principal */
+/* Banner - Global */
 
 .owl-carousel {
     z-index: 0 !important;
 }
+
+.owl-carousel .owl-nav {
+    top: 45%;
+    position: absolute;
+    width: 100%;
+    margin: 0;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.owl-carousel .owl-nav button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    background-color: white !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 15%);
+    box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 15%);
+}
+
+.owl-carousel .owl-nav button span {
+    position: absolute;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: -20px !important;
+    top: 0;
+    left: 12px;
+}
+
+/* Banner Principal */
 
 #main-banner * {
     color: #eaeaea;
@@ -304,7 +357,8 @@ header #menu-mobile .menu-toogle  {
     width: 100%;
     flex: 1;
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 1rem 0;
+    margin: 3rem 0;
 }
 
 #main-banner article .caption,
@@ -392,6 +446,10 @@ header #menu-mobile .menu-toogle  {
     text-align: center;
 }
 
+.section-common .owl-carousel {
+    margin-bottom: 1rem;
+}
+
 /**/
 
 .section-season {
@@ -427,6 +485,11 @@ header #menu-mobile .menu-toogle  {
     margin-bottom: 1rem;
 }
 
+.section-season .container p{
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
 .section-season .container .btn {
     background-color: #ffffff00;
     border: solid 2px white;
@@ -437,6 +500,35 @@ header #menu-mobile .menu-toogle  {
     color: #494d51;
 }
 
+/**/
+
+.box-categories {
+    display: grid;
+    row-gap: 1%;
+    column-gap: 1%;	
+    grid-template-columns: repeat(auto-fit, 24%);
+}
+
+.box-categories a {
+    box-sizing: border-box;
+    background-color: violet;
+    padding: 1rem;
+    min-height: 10rem;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.box-categories a:first-child {
+    background-color: blue;
+}
+
+.box-categories a:nth-child(-n+4) {
+    width: 23%;
+}
+
+/* Media Queriss */
 
 @media only screen and (min-width: 480px) {
     .section-common article {
@@ -481,6 +573,25 @@ header #menu-mobile .menu-toogle  {
     }
     header .container .user-actions span {
         display: block;
+    }
+    #main-banner article {
+        flex-direction: row;
+    }
+    #main-banner article .image {
+        order: 0;
+    }
+    #main-banner article h3,
+    #main-banner article p {
+        text-align: left;
+    }
+    #main-banner .container-btn {
+        justify-content: flex-start;
+    }
+    #main-banner article .btn {
+        margin: 0 1rem 0 0;
+    }
+    #main-banner article .image {
+        margin-bottom: 0;
     }
 }
 
