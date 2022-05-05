@@ -54,31 +54,32 @@
         </nav>
     </header>
 
-    <div class="contenedor">
+    <section class="section-common">
 
-        <div class="contenedorlogin">
+        <div class="container">
 
-            <form class="login">
+            <form class="form-box login" action="/home" method="">
+                <h3>Login</h3>
 
-                <p class="title">Login</p>
-                <input type="text" placeholder="Username" autofocus/>
-
-                <i class="passwordlogin"></i>
-                <input type="password" placeholder="Password" />
-
-                <div class="olvidaste">
-                    <a href="#">¿Olvidaste tu contraseña?</a>
+                <div class="field-box">
+                    <label for="txtUsername">Nombre de usuario</label>
+                    <input type="text" id="txtUsername" name="username" />
                 </div>
 
-                <div>
-                    <button class="button-login">Login</button>
+                <div class="field-box">
+                    <label for="txtPassword">Contraseña</label>
+                    <input type="password" id="txtPassword" name="password" />
+                </div>
+
+                <div class="btn-box">
+                    <button type="submit">Ingresar</button>
                 </div>
 
             </form>
 
         </div>
 
-    </div>
+    </section>
 
     <script src="scripts/functions.js"></script>
 
