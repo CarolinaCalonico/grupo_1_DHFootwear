@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <%- include('./partials/head') %>
+        <title>DH Footwear | Registro</title>
+
+
+<body>
+
+    <%- include('./partials/header') %>
+
+    <main>
+        <!-- action = ruta en donde se va a procesar la info  -->
+        <form action="" method="POST">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombreUsuario" id="nombre">
+            
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellidoUsuario" id="apellido">
+            
+                <label for="fecha">Fecha nacimiento</label>
+                <input placeholder="DD/MM/AA" name="fechanacimiento" type="text" id="fecha">
+            
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario">
+            
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="passwordUsuario" id="contraseña" minlength="8" maxlength="8">
+            
+                <label for="confirContraseña">Confirmar contraseña</label>
+                <input type="password" name="passwordUsuario" id="confirContraseña" minlength="8" maxlength="8">
+            
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="emailUsuario" id="correo">
+            
+                <label for="confirCorreo">Confirmar correo electrónico</label>
+                <input type="email" name="emailUsuario" id="confirCorreo">
+            </div>
+            <div> 
+                <div>
+                    <button class="button" type="submit">Registrar</button>
+                </div>
+                <div>
+                    <button class="button" type="reset">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="scripts/functions.js"></script>
+</body>
+</html>
+
+
+
