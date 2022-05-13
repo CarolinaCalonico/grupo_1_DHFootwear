@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.use(express.static('public'));
+app.use("/static", express.static(path.join(__dirname, "../public")));
 
 app.listen(3000, ()=>{
     console.log('Server Status: OK');
@@ -30,6 +30,7 @@ app.use('/', mainRoute);
 app.use("/product", productRoute);
 app.use("/register", registerRoute);
 app.use("/login", loginRoute);
+app.use("/productDetail", loginRoute);
 
 
 

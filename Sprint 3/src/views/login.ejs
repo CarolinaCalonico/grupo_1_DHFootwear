@@ -9,7 +9,7 @@
 
     <%- include('./partials/header') %>
 
-    <section class="section-common">
+    <section class="section-common login">
 
         <div class="container">
 
@@ -26,9 +26,13 @@
                     <input type="password" id="txtPassword" name="password" />
                 </div>
 
+                <a href="#">¿Olvidaste tu contraseña?</a>
+
                 <div class="btn-box">
-                    <button type="submit">Ingresar</button>
+                    <button class="btn btn-sm btn-red" type="submit">Ingresar</button>
                 </div>
+
+                <a href="/register">Registrate</a>
 
             </form>
 
@@ -36,7 +40,9 @@
 
     </section>
 
-    <script src="scripts/functions.js"></script>
+    <%- include('./partials/footer') %>
+
+    <script src="/static/scripts/functions.js"></script>
 
 </body>
 </html>

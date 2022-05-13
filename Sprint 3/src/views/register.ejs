@@ -9,49 +9,73 @@
 
     <%- include('./partials/header') %>
 
-    <main>
-        <!-- action = ruta en donde se va a procesar la info  -->
-        <form action="" method="POST">
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombreUsuario" id="nombre">
-            
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellidoUsuario" id="apellido">
-            
-                <label for="fecha">Fecha nacimiento</label>
-                <input placeholder="DD/MM/AA" name="fechanacimiento" type="text" id="fecha">
-            
-                <label for="usuario">Usuario:</label>
-                <input type="text" name="usuario" id="usuario">
-            
-                <label for="contraseña">Contraseña</label>
-                <input type="password" name="passwordUsuario" id="contraseña" minlength="8" maxlength="8">
-            
-                <label for="confirContraseña">Confirmar contraseña</label>
-                <input type="password" name="passwordUsuario" id="confirContraseña" minlength="8" maxlength="8">
-            
-                <label for="correo">Correo electrónico</label>
-                <input type="email" name="emailUsuario" id="correo">
-            
-                <label for="confirCorreo">Confirmar correo electrónico</label>
-                <input type="email" name="emailUsuario" id="confirCorreo">
-            </div>
-            <div> 
-                <div>
-                    <button class="button" type="submit">Registrar</button>
-                </div>
-                <div>
-                    <button class="button" type="reset">Cancelar</button>
-                </div>
-            </div>
-        </form>
-    </main>
+    <section class="section-common register">
 
-    <footer>
+        <div class="container">
 
-    </footer>
-    <script src="scripts/functions.js"></script>
+            <form class="form-box" action="" method="POST">
+                
+                <h3>Registro</h3>
+
+                <div class="field-box">
+                    <label for="txtName">Nombre:</label>
+                    <input type="text" name="txtName" id="txtName">
+                </div>
+
+                <div class="field-box">            
+                    <label for="txtSurname">Apellido:</label>
+                    <input type="text" name="txtSurname" id="txtSurname">
+                </div>
+
+                <div class="field-box">  
+                    <label for="txtUsername">Usuario:</label>
+                    <input type="text" name="txtUsername" id="txtUsername">
+                </div>
+
+                <div class="field-box">  
+                    <label for="txtDate">Fecha nacimiento</label>
+                    <input placeholder="DD/MM/AA" name="txtDate" type="date" id="txtDate">
+                </div>
+
+                <hr>
+                
+                <div class="field-box">  
+                    <label for="txtEmail">Correo electrónico</label>
+                    <input type="email" name="txtEmail" id="txtEmail">
+                </div>
+                
+                <div class="field-box">  
+                    <label for="txtConfirmEmail">Confirmar correo electrónico</label>
+                    <input type="email" name="txtConfirmEmail" id="txtConfirmEmail">
+                </div>
+
+                <hr>
+
+                <div class="field-box">  
+                    <label for="txtPass">Contraseña</label>
+                    <input type="password" name="txtPass" id="txtPass" minlength="8" maxlength="8">
+                </div>
+                
+                <div class="field-box">  
+                    <label for="txtConfirmPass">Confirmar contraseña</label>
+                    <input type="password" name="txtConfirmPass" id="txtConfirmPass" minlength="8" maxlength="8">
+                </div>
+
+                <div class="btn-box">
+                    <button class="btn btn-sm btn-red" type="submit">Registrar</button>
+                </div>
+                
+                <a href="/login">¿Ya tenes una cuenta? Ingresar</a>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <%- include('./partials/footer') %>
+    
+    <script src="/static/scripts/functions.js"></script>
 </body>
 </html>
 
