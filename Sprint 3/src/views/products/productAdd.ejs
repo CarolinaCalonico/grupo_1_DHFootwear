@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <%- include('../partials/head') %>
+        <title>DH Footwear | Nuevo Producto</title>
+
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <section class="">
+
+        <div class="container">
+            
+            <form class="form-box" action="/productos/crear" method="POST" >
+
+                <h3>Nuevo Producto</h3>
+
+                <div class="field-box">
+                    <label for="nombre" class="creacion-productos">Nombre del producto:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="" class="input-creacion-productos">
+                </div>
+        
+                <div class="field-box">
+                    <label for="precio" class="creacion-productos">Precio:</label>
+                    <input type="text" id="precio" name="precio" placeholder="" class="input-creacion-productos">
+                </div>
+
+                <div class="field-box">
+                    <label for="categoria" class="creacion-productos">Categoría:</label>
+                    <select name="categoria" id="categoria">
+                        <option value="">Selecionar</option>
+                        <option value="">Deportes</option>
+                        <option value="">Urbano</option>
+                        <option value="">Relax</option>
+                    </select>
+                </div>
+
+                <div class="field-box">
+                    <label for="talle" class="creacion-productos">Talle:</label>
+                    <select name="talle" id="talle"  >
+                        <option value="">37</option>
+                        <option value="">38</option>
+                        <option value="">39</option>
+                        <option value="">40</option>
+                        <option value="">41</option>
+                        <option value="">42</option>
+                        <option value="">43</option>
+                        <option value="">44</option>
+                    </select>
+                </div>
+
+                <div class="field-box">
+                    <label for="imagenProducto" class="label-creacion-productos">Imagen del producto</label>
+                    <input type="file" name="imagenProducto" id="imagenProducto">
+                </div>
+        
+                <div class="field-box">
+                    <label for="descripcion" class="label-creacion-productos">Descripción del producto:</label>
+                    <textarea name="descripcion" id="descripcion" class="input-creacion-productos"></textarea>
+                </div>
+        
+                <div class="field-box">
+                    <input type="submit" value="Crear" class="btn btn-sm btn-red">
+                </div>
+
+                <br>
+
+                
+            </form>
+
+            <a href="/product/productEdit" class="field-box">
+                <button class="btn btn-sm btn-red"> Editar producto</button>
+            </a>
+
+        </div>
+
+    </section>
+
+    <%- include('../partials/footer') %>
+    
+    <script src="/static/scripts/functions.js"></script>
+</body>
+</html>

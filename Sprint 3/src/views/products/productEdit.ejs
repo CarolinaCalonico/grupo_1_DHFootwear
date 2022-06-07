@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <%- include('../partials/head') %>
+        <title>DH Footwear | Editar Producto</title>
+
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <section class="">
+
+        <div class="container">
+            
+            <form class="form-box" action="" method="get">
+
+                <h3>Editar producto</h3>
+
+                <div class="field-box">
+                    <label for="nombre" class="label-creacion-productos">Nombre del producto:</label>
+                    <input type="text" id="nombre" name="nombre" value="" class="">
+                </div>
+        
+                <div class="field-box">
+                    <label for="precio" class="label-creacion-productos">Precio del producto:</label>
+                    <input type="text" id="precio" name="precio" value="" class="">
+                </div>
+        
+                <div class="field-box">
+                    <label for="descuento" class="label-creacion-productos">Descuento del producto:</label>
+                    <input type="text" id="descuento" name="descuento" value="" placeholder="Agregar descuento a este producto" class="">
+                </div>
+        
+                <div class="field-box">
+                    <label for="categoria" class="label-creacion-productos">Categoría:</label>
+                    <select name="categoria" id="categoria">
+                        <option value=""></option>
+                        <option value="mejores-productos">Deportes</option>
+                        <option value="mas-comprados">Urbano</option>
+                        <option value="mejores-ofertas">Relax</option>
+                    </select>
+                </div>
+        
+                <div class="field-box">
+                    <label for="descripcion" class="label-creacion-productos">Descripción del producto:</label>
+                    <textarea name="descripcion" id="descripcion" value="" class=""></textarea>
+                </div>
+        
+                <div class="field-box">
+                    <input type="submit" value="Editar" class="btn btn-sm btn-red">
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+    <%- include('../partials/footer') %>
+    
+    <script src="/static/scripts/functions.js"></script>
+</body>
+</html>
