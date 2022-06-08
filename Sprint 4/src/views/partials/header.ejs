@@ -1,0 +1,37 @@
+<header>
+    <div class="container">
+        <a href="/home" class="logo">
+            <img src="/static/images/logotipo-dh-footwear.png" alt="Logotipo DG-Footwear" class="lg"/>
+            <img src="/static/images/isotipo-dh-footwear.png" alt="Logotipo DG-Footwear" class="sm"/>
+        </a>
+        <form class="search-box">
+            <i data-feather="search"></i>
+            <input type="text" name="search-box" id="search-box" placeholder="Buscar" />
+        </form>                                
+        <div class="user-actions">
+            <a href="/register">Registro</a>|
+            <span>¿Ya tenés una cuenta?</span> <a href="/login">Ingresar</a>|
+            <a href="/product/cart"><i data-feather="shopping-cart"></i></a>
+            <br>
+            <a href="/product/productAdd">+Add</a>
+        </div>
+        <nav>
+            <a href="/market">tienda</a>
+            <a href="/2022">nuevo 2022</a>
+            <a href="/season">temporada</a>
+            <a href="/categories">categorias</a>
+        </nav>
+        <button class="menu-toogle" onclick="toogleMenuMobile();"><i data-feather="menu"></i></button>
+    </div>
+    <nav id="menu-mobile">
+        <button class="menu-toogle" onclick="toogleMenuMobile();"><i data-feather="x"></i></button>
+        <a href="/market">tienda</a>
+        <a href="/2022">nuevo 2022</a>
+        <a href="/season">temporada</a>
+        <a href="/categories">categorias</a>
+        <a href="/product/cart">mi carrito</a>
+        <hr>
+        <a href="/register">registro</a>
+        <a href="/login">ingresar</a>
+    </nav>
+</header>

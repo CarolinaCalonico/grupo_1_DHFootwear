@@ -1,0 +1,17 @@
+{
+  "name": "dh-footwear",
+  "version": "1.0.0",
+  "description": "Ecommerce para la venta de calzados de diferentes estilos.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "Carolina Calonico, Christian Diaz Luna, Marcos Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.16"
+  }
+}
