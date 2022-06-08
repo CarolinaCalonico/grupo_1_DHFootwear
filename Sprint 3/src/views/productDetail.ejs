@@ -2,67 +2,73 @@
 <html lang="en">
 
     <%- include('./partials/head') %>
-    <title>DH Footwear | Producto </title>
+    <title>DH Footwear | Producto
+    </title>
 
 
-<body>
+    <body>
 
-    <%- include('./partials/header') %>
+        <%- include('./partials/header') %>
+
+        <section class="section-common">
+
+            <div class="container">
 
 
-    <main>
-      <div class="flex-box">
-        <div class="left">
-          <div class="big-img">
-            <img src="images/productos/adidas-Coreracer/adidasCoreracer.jpeg">
-          </div>
-          <div class="images">
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-2.jpeg">
+                <main>
+                    <div class="flex-box">
+                        <div class="left">
+                            <div class="big-img">
+                                <img src="/static/images/productos/adidas/coreracer/adidas-coreracer.jpeg">
+                            </div>
+                            <div class="images">
+                                <div class="small-img">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-2.jpeg">
+                                </div>
+                                <div class="small-img">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-3.jpeg">
+                                </div>
+                                <div class="small-img">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-4.jpeg" onclick="showImg(this.src)">
+                                </div>
+                                <div class="small-img">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-5.jpeg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="url">Home > Calzado > Adidas</div>
+                            <div class="pname">Adidas Coreracer
+                            </div>
+                            <div class="price">$14.500</div>
+                            <div class="size">
+                                <p>Size:</p>
+                                <div class="psize">37</div>
+                                <div class="psize">38</div>
+                                <div class="psize">39</div>
+                                <div class="psize">40</div>
+                                <div class="psize">41</div>
+                                <div class="psize">42</div>
+                                <div class="psize">43</div>
+                            </div>
+                            <div class="quantity">
+                                <p>Quantity :</p>
+                                <input type="number" min="1" max="7" value="1">
+                            </div>
+                            <div class="btn-box">
+                                <button class="cart-btn">Add to Cart</button>
+                                <button class="buy-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
             </div>
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-3.jpeg">
-            </div>
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-4.jpeg" onclick="showImg(this.src)">
-            </div>
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-5.jpeg">
-            </div>
-          </div>
-        </div>
 
-        <div class="right">
-          <div class="url">Home > Calzado > Adidas</div>
-          <div class="pname">Adidas Coreracer </div>
-          <div class="price">$14.500</div>
-          <div class="size">
-            <p>Size:</p>
-            <div class="psize">37</div>
-            <div class="psize">38</div>
-            <div class="psize">39</div>
-            <div class="psize">40</div>
-            <div class="psize">41</div>
-            <div class="psize">42</div>
-            <div class="psize">43</div>
-          </div>
-          <div class="quantity">
-            <p>Quantity :</p>
-            <input type="number" min="1" max="7" value="1">
-          </div>
-          <div class="btn-box">
-            <button class="cart-btn">Add to Cart</button>
-            <button class="buy-btn">Buy Now</button>
-          </div>
-        </div>
-      </div>
+        </section>
 
-  </main>
-
-  <%- include('./partials/footer') %>
-<script src="scripts/functions.js"></script>
-</body>
+        <%- include('./partials/footer') %>
+        <script src="scripts/functions.js"></script>
+    </body>
 </html>
-
-
-
