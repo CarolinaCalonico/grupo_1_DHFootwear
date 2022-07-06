@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-        <%- include('../partials/head') %>
-        <title>DH Footwear | Editar Producto</title>
+    <%- include('../partials/head') %>
+    <title>DH Footwear | Editar Producto</title>
 
+    <body>
 
-<body>
+        <%- include('../partials/header') %>
 
-    <%- include('../partials/header') %>
-
-    <section class="">
-
-        <div class="container">
+        <section class="section-common register">
+            <div class="container">
             
-            <form class="form-box" action="" method="get">
+            <form class="form-box" action="" method="POST">
 
                 <h3>Editar producto</h3>
 
@@ -46,10 +44,11 @@
                     <label for="descripcion" class="">Descripción del producto:</label>
                     <textarea name="descripcion" id="descripcion" value="" class=""></textarea>
                 </div>
-        
-                <div class="field-box">
+
+                <div class="btn-box">
                     <input type="submit" value="Editar" class="btn btn-sm btn-red">
                 </div>
+                
             </form>
 
         </div>
@@ -57,7 +56,7 @@
     </section>
 
     <%- include('../partials/footer') %>
-    
     <script src="/static/scripts/functions.js"></script>
+</body>
 </body>
 </html>

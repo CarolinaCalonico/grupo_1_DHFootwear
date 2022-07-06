@@ -2,67 +2,83 @@
 <html lang="en">
 
     <%- include('../partials/head') %>
-    <title>DH Footwear | Producto </title>
+    <title>DH Footwear | Detalle del Producto</title>
 
+    <body>
 
-<body>
+        <%- include('../partials/header') %>
 
-    <%- include('../partials/header') %>
+        <section class="section-common top-margin">
+            <div class="container">
 
+                <div class="row">
+                    <div class="col-2">
 
-    <main>
-      <div class="container">
-        <div class="container">
-          <div class="big-img">
-            <img src="images/productos/adidas-Coreracer/adidasCoreracer.jpeg">
-          </div>
-          <div class="images">
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-2.jpeg">
-            </div>
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-3.jpeg">
-            </div>
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-4.jpeg" onclick="showImg(this.src)">
-            </div>
-            <div class="small-img">
-              <img src="images/productos/adidas-Coreracer/AC-5.jpeg">
-            </div>
-          </div>
-        </div>
+                        <div class="sumary sumary-images">
+                            <div class="image-active">
+                                <img src="/static/images/productos/adidas/coreracer/ac-1.jpeg">
+                            </div>
+                            <div class="image-thumbs">
+                                <div class="thumb">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-2.jpeg">
+                                </div>
+                                <div class="thumb">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-3.jpeg">
+                                </div>
+                                <div class="thumb">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-4.jpeg" onclick="showImg(this.src)">
+                                </div>
+                                <div class="thumb">
+                                    <img src="/static/images/productos/adidas/coreracer/AC-5.jpeg">
+                                </div>
 
-        <div class="container">
-          <div class="url">Home > Calzado > Adidas</div>
-          <div class="pname">Adidas Coreracer </div>
-          <div class="price">$14.500</div>
-          <div class="size">
-            <p>Size:</p>
-            <div class="psize">37</div>
-            <div class="psize">38</div>
-            <div class="psize">39</div>
-            <div class="psize">40</div>
-            <div class="psize">41</div>
-            <div class="psize">42</div>
-            <div class="psize">43</div>
-          </div>
-          <div class="quantity">
-            <p>Quantity :</p>
-            <input type="number" min="1" max="7" value="1">
-          </div>
-          <div class="btn-box">
-            <button class="cart-btn">Add to Cart</button>
-            <button class="buy-btn">Buy Now</button>
-          </div>
-        </div>
-      </div>
+                                <div class="thumb">
+                                  <img src="/static/images/productos/adidas/coreracer/AC-5.jpeg">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="sumary">
 
-  </main>
+                            <span class="breadcrumb">Home > Calzado > Adidas</span>
 
-  <%- include('../partials/footer') %>
-<script src="scripts/functions.js"></script>
-</body>
+                            <h1 class="title">Adidas Coreracer</h1>
+
+                            <span class="price">$ 14.500</span>
+
+                            <div class="box-action size">
+                                <h4>Talles:</h4>
+                                <ul>
+                                    <li><a href="">37</a></li>
+                                    <li><a href="">38</a></li>
+                                    <li><a href="">39</a></li>
+                                    <li><a href="">40</a></li>
+                                    <li><a href="">41</a></li>
+                                    <li><a href="">42</a></li>
+                                    <li><a href="">43</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="box-action quantity">
+                                <h4>Cantidad:</h4>
+                                <input type="number" min="1" max="7" value="1">
+                            </div>
+
+                            <div class="box-action cart-buy">
+                                <a class="btn"><i data-feather="shopping-cart"></i>Agregar al carrito</a>
+                                <a class="btn btn-red"><i data-feather="credit-card"></i>Comprar Ahora</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <%- include('../partials/footer') %>
+            <script src="/static/scripts/functions.js"></script>
+        </body>
+    </body>
 </html>
-
-
-

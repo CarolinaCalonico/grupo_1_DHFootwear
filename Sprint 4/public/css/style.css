@@ -81,6 +81,10 @@ input:focus {
     justify-content: center;
 }
 
+.top-margin {
+    margin-top: 1rem;
+}
+
 /* Botones */
 
 .btn {
@@ -123,6 +127,10 @@ input:focus {
     font-size: 16px;
     stroke-width: 3;
     margin-right: 0.5rem;
+}
+
+.btn *{
+    color: white;
 }
 
 /* Header */
@@ -766,6 +774,110 @@ section.register .form-box {
 .form-box button[type=reset] {
     background-color: #cfcfcf;
     color: black;
+}
+
+/* ROW - COL */
+
+.row img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.row .col-2 {
+    flex: 1;
+    width: 50%;
+}
+
+/**/
+
+.sumary {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 3rem;
+}
+
+.sumary img {
+    border: solid 1px #cfcfcf;
+}
+
+.sumary-images {
+    padding: 0;
+}
+
+.sumary-images .image-thumbs {
+    display: flex;
+    flex-direction: row;
+}
+
+.sumary .breadcrumb {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.sumary .title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.sumary .price {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.sumary .box-action {
+    margin-bottom: 1rem;
+}
+
+.sumary .box-action h4 {
+    margin-bottom: 0.25rem;
+}
+
+.sumary .box-action.size ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.sumary .box-action.size ul li {
+    border: solid 1px #555a5f;
+    margin-right: 5px;
+}
+
+.sumary .box-action.size ul li a {
+    display: block;
+    padding: 3px 8px 5px 8px;
+}
+
+.sumary .box-action.size ul li a:hover {
+    background-color: #555a5f;
+    color: white;
+}
+
+.sumary .box-action.quantity input {
+    padding: 3px 0 3px 5px;
+    font-size: 1rem;
+}
+
+.sumary .box-action.cart-buy {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    border-top: solid 1px #cfcfcf;
+}
+
+.sumary .box-action.cart-buy a {
+    margin-right: 1rem;
 }
 
 /* Media Queries */
