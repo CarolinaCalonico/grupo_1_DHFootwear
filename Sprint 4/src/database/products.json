@@ -1,0 +1,71 @@
+[
+    {
+        "id":"1",
+        "categoria": "Deportes",
+        "marca": "Puma",
+        "titulo": "Puma Velocity Nitro",
+        "precio": 23.999,
+        "descripcion": "Las zapatillas Puma Deviate Nitro están confeccionadas con placa de propulsión de fibra de carbono INNOPLATE para lograr una máxima velocidad. La suela de goma PUMAGRIP de largo completo ofrece tracción duradera en cualquier superficie, mientras que la tecnología NITRO FOAM propociona una capacidad de respuesta única y una amortiguación superior en cada pisada. Su diseño con detalles de reflectividad 360° te darán en total una comodidad y protección ideales para el alto rendimiento.",
+        "imagen": "/images/productos/puma/velocitynitro/PV-5.jpeg",
+        "stock": 100
+    },
+    {
+        "id":"2",
+        "categoria": "Deportes",
+        "marca": "Salomon",
+        "titulo": "Salomon Supercross Blast",
+        "precio": 22.199,
+        "descripcion": "Las Zapatillas Salomon Supercross Blast tienen todo lo necesario para que recorras kilómetros y kilómetros en terrenos difíciles. La tecnología Contagrip® TD mejora la tracción gracias a los tacos resistentes de la suela; el sistema EnergyCell™ es una espuma de EVA de alto impacto que amortigua tus pisadas. El tejido de la capellada es antidesgarro y permite una durabilidad mayor y un estilo deportivo incomparable.",
+        "imagen": "/images/productos/salomonsupercross/SS-5.jpeg",
+        "stock": 100
+    },
+    {
+        "id":"3",
+        "categoria": "Deportes",
+        "marca": "Nike",
+        "titulo": "Nike Running Revolution 6",
+        "precio": 16.499,
+        "descripcion": "Suma más y más kilómetros con tus Zapatillas Nike Revolution 6 Next Nature, que aportan amortiguación y confort a cada paso que des. Su capellada transpirable y suela diseñada por computadora para una mejor tracción son ideales hasta para los corredores más exigentes.",
+        "imagen": "/images/productos/salomonsupercross/SS-5.jpeg",
+        "stock": 100
+    },
+    {
+        "id":"4",
+        "categoria": "Deportes",
+        "marca": "Adidas",
+        "titulo": "Adidas Coreracer",
+        "precio": 14.000,
+        "descripcion": "El par más cómodo y ligero para running. Las Zapatillas adidas Coreracer ofrecen la combinación ideal de sujeción para correr y estilo urbano. Tus pisadas serán livianas en todo momento. Su diseño clásico te permitirá combinarlo con diferentes prendas y fueron confeccionados con materiales transpirables para mantener tus pies frescos.",
+        "imagen": "/images/productos/adidas/coreracer/ACC-5.jpeg",
+        "stock": 100
+    },
+
+    {
+        "id":"5",
+        "categoria": "Urbano",
+        "marca": "Nike",
+        "titulo": "Nike Classic Cortez",
+        "precio": 18.999,
+        "descripcion": "Si tu estilo lo defines como casual y clásico con toque de los 70, las Zapatillas Nike Cortez Basic Premium son perfectas por sus materiales sintéticos y resistentes que te brindan durabilidad, también los hace frescos y cómodos. Su suela de goma te da la amortiguación necesaria para que los impactos se sientan menos y tus pisadas sean más seguras y estables en todo momento.",
+        "imagen": "/images/productos/nike/cortez/NC-5.jpeg",
+        "stock": 100
+    },
+    {
+        "id":"6",
+        "categoria": "Urbano",
+        "marca": "Reebok",
+        "titulo": "Cerveza Temple lata ipa 450ml",
+        "precio": 17.499,
+        "descripcion": "Allá afuera hay mucho por descubrir. ¿Por qué esperar? Explora la naturaleza al mejor estilo Reebok con este par de zapatillas . Su diseño inspirado en la naturaleza es perfecto para pasear por los senderos o por las aceras citadinas. ¡Que nada te detenga!",
+        "imagen": "/images/productos/reebooklegacy/RL-5.jpeg",
+        "stock": 100
+    }
+
+]
+
+
+
+
+
+
+

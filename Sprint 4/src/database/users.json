@@ -1,0 +1,22 @@
+[
+    {
+        "id": "01",
+        "nombre": "Marcos",
+        "apellido": "Ramos",
+        "email": "marcosramos@gmail.com",
+        "password": "",
+        "fechaDeNacimiento": "",
+        "avatar": "",
+        "categoria": ""
+    },
+    {
+        "id": "02",
+        "nombre": "Christian",
+        "apellido": "Diaz Luna",
+        "email": "christiandiazluna@gmail.com",
+        "password": "",
+        "fechaDeNacimiento": "1997-10-09",
+        "avatar": "",
+        "categoria":""
+    }
+]
